@@ -20,8 +20,8 @@
 		    <h4 class="list-group-item-heading">{{topic.name}}</h4>
 		  </a>
 		  <div ng-repeat="status in relatedTweets[topic.name]">
-			  <a href="{{status.source}}" class="list-group-item">
-			    <p class="list-group-item-text">{{status.text}}</p>
+			  <a href="" class="list-group-item">
+			    <p ng-bind-html="status.text | linky" class="list-group-item-text">{{status.text}}</p>
 			  </a>
 			</div>
 		</div>
