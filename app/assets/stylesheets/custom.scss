@@ -1,0 +1,33 @@
+* {
+  border-radius: 0 !important;
+}
+
+section {
+  padding-top: 60px;
+  background: rgba(151, 8, 43, 1);
+  color: white;
+}
+
+.header {
+  text-align: center;
+  h1 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
+}
+
+button {
+  height: 50px; 
+}
+
+.topics {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.search {
+  height: 50px; 
+  text-align: center; 
+  font-size: 1.2em;
+}

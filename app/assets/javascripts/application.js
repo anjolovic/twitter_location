@@ -12,5 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require bootstrap-sprockets
+//= require angular/angular
+//= require oauth-js/dist/oauth
+//= require angular-sanitize/angular-sanitize
+//= require angular/main
 //= require_tree .
